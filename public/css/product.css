@@ -16,14 +16,14 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: cen ter;
+    justify-content: center;
     align-items: center;
     margin: 50px 0  ;
 
   }
   
   .price {
-    color: grey;
+    color: rgb(100, 94, 94);
     font-size: 22px;
   }
   
@@ -32,7 +32,7 @@
     outline: 0;
     padding: 12px;
     color: white;
-    background-color: #000;
+    background-color: #2b536d;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -47,10 +47,16 @@
     .card{
         width: 45%;
     }
+    .card :no-button{
+      width:45%;
+    }
   }
 
   @media(max-width:750px) {
     .card{
         width: 100%;
+    }
+    .card :no-button{
+      width:100%;
     }
   }
