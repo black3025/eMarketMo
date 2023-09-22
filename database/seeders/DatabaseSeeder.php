@@ -20,7 +20,7 @@ class DatabaseSeeder extends Seeder
         );
         \App\Models\Role::create(
             [
-                'name'=>"user",
+                'name'=>"Shop Owner",
                 'role'=>2
             ]
         );

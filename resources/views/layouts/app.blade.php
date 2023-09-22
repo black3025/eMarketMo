@@ -13,6 +13,11 @@
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
+        <link href="https://cdn.datatables.net/v/ju/dt-1.13.6/datatables.min.css" rel="stylesheet">
+ 
+        <script src="{{asset('js/jquery.js')}}"></script>
+        <script src="https://cdn.datatables.net/v/ju/dt-1.13.6/datatables.min.js"></script>
+        
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
@@ -33,4 +38,6 @@
             </main>
         </div>
     </body>
+    
+    @yield('page-script')
 </html>
